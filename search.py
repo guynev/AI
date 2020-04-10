@@ -31,6 +31,8 @@ class Node:
             cur = cur.get_father()
         return lst[::-1]
 
+    # UGABUGA
+
 class SearchProblem:
     """
     This class outlines the structure of a search problem, but doesn't implement
