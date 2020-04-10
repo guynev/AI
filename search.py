@@ -74,7 +74,8 @@ class SearchProblem:
         """
         util.raiseNotDefined()
 
-
+    def hello(self):
+        pass
 
 
 def depth_first_search(problem):
