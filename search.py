@@ -17,7 +17,7 @@ class Node:
     def get_action(self):
         return self.action
 
-    def get_cost(self):
+    def get_cost(self): #money money
         return self.cost
 
     def get_father(self):
@@ -139,7 +139,6 @@ def null_heuristic(state, problem=None):
     goal in the provided SearchProblem.  This heuristic is trivial.
     """
     return 0
-
 
 def a_star_search(problem, heuristic=null_heuristic):
     """
